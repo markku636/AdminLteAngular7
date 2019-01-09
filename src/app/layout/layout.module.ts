@@ -4,10 +4,11 @@ import { TopnavbarComponent } from './topnavbar/topnavbar.component';
 import { AsidenavbarComponent } from './asidenavbar/asidenavbar.component';
 import { FooternavbarComponent } from './footernavbar/footernavbar.component';
 import { SettingsnavbarComponent } from './settingsnavbar/settingsnavbar.component';
-
+import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
       TopnavbarComponent,
