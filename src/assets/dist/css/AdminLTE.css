@@ -3245,8 +3245,8 @@ table.text-center th {
   color: #444;
 }
 .login-page,
-.register-page {
-  background: #d2d6de;
+.register-page {  
+  background-image:url('/assets/images/background.jpg');
 }
 .login-box,
 .register-box {
