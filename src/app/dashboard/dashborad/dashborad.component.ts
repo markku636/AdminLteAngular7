@@ -3,7 +3,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 @Component({
   selector: 'app-dashborad',
   templateUrl: './dashborad.component.html',
-  styleUrls: ['./dashborad.component.scss']
+  styleUrls: ['./dashborad.component.css']
 })
 export class DashboradComponent implements OnInit, OnDestroy {
 
